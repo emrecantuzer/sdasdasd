@@ -1,0 +1,128 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: rgb(141, 128, 115);
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#home {
+  background: rgb(160, 149, 127);
+  color: white;
+  height: 700px;
+}
+
+#aboutme {
+  background: rgb(151, 163, 245);
+  color: white;
+  height: 700px;
+}
+
+#skill {
+  background: rgb(7, 135, 221);
+  color: white;
+  height: 700px;
+}
+
+.skillFondo {
+  /* background-image: url("../img/fondoblanco.jpg"); */
+
+  width: 100%;
+  /*height: 700px;  You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.workFondo {
+  background-image: url("../img/postit.jpg");
+  color: white;
+
+  height: 700px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+#work {
+  background: rgb(151, 245, 182);
+  color: black;
+  /* height: 700px; */
+}
+
+
+
+#connect {
+  background: rgb(202, 167, 212);
+  color: white;
+  height: 700px;
+}
+
+#box {
+  background: rgb(151, 163, 245);
+  color: white;
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background: url(../img/smartphones.png);
+}
+
+.bienvenido {
+  /* background: url(../img/codigo.jpg); */
+
+  color: rgb(180, 233, 235);
+}
+
+.avatar {
+  background: white;
+  /* cambia estos dos valores para definir el tamaño de tu círculo */
+  height: 70px;
+  width: 70px;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+
+.imgwork {
+  width: 231px;
+  height: 200px;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+}
+
+
+.cajatexto{
+  padding: 5px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  
+}
