@@ -24,7 +24,7 @@ footer small {
 }
 
 h1 {
-  color: #BD5532;
+  color: #black;
   font-size: 2.4rem;
   text-align: center;
   letter-spacing: 0.3rem;
@@ -187,11 +187,11 @@ p {
 ::-webkit-scrollbar-thumb { background-color: #464545; -webkit-border-radius: 1ex; }
 
 a:link {
-color: #BD5532;
+color: #black;
 text-decoration:none;
 }
 a:visited {
-color: #BD5532;
+color: #black;
 }
 a:hover {
 color: #ff3300;
@@ -219,7 +219,7 @@ color: #ff3300;
 }
 
 .nav-button:hover > .icon {
-  fill:  #BD5532;
+  fill:  #black;
 }
 
 .icon--2x {
